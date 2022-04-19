@@ -110,6 +110,7 @@ int len( int* L)
 	return k;
 }
 
+
 void afficher_liste(int* L,int len_L)
 {
 	for (int i=0;i<len_L;++i)  { printf("%d \n ",L[i]); }
